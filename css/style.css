@@ -27,7 +27,7 @@ body {
 -------------------------------------------------- */
 
 .jumbotron {
-    background: url('http://lorempixel.com/640/400/nature/') center center;
+    background: url('images/LVegasFlowers.png') center center;
     background-size: cover;
     color: #eee;
 }
