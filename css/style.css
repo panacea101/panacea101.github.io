@@ -1,0 +1,149 @@
+/* Styles go here */
+
+/* BOOTSTRAP 3.x GLOBAL STYLES
+-------------------------------------------------- */
+body {
+  padding-bottom: 40px;
+  color: #FFFFFF;
+  background:#000000;
+  font-family:helvetica;
+}
+
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+/* CUSTOMIZE THE jumbotron
+-------------------------------------------------- */
+
+.jumbotron {
+    background: url('http://lorempixel.com/640/400/nature/') center center;
+    background-size: cover;
+    color: #eee;
+}
+.profilePic{
+  border: #eee 5px solid;
+  border-radius: 2px;
+}
+
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.marketing h1 {
+  font-weight: normal;
+  color: #ED1C24;
+
+}
+/*
+.marketing h2 {
+  border-bottom: 1px solid #5a5a5a;
+}
+.marketing .row:nth-child(3n+1):nth-last-child(-n+3){
+border-top: 2px solid #5a5a5a;
+
+}
+*/
+.marketing .col-lg-4 p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#pgatour{
+    background-image: url("http://www.pgatour.com/etc/designs/pgatour-common-components/clientlibs/header/globalNavigation/img/theme-pgatour/sprite.png");
+    background-repeat: no-repeat;
+    width: 218px;
+    height: 70px;
+    margin:0 auto;
+}
+#nascar{
+    background-image: url("http://green.nascar.com/wp-content/themes/green/images/nascar-green.png");
+    background-repeat: no-repeat;
+    width: 202px;
+    height: 52px;
+    margin:0 auto;
+}
+#verizon{
+    background-image: url("https://lh4.ggpht.com/xRH-IZPXy20jlFESDEtl_eYD91kUTDUkd6KuE91GUmACHjFLaZgdrW92dAMmWQOupoc=w300-rw");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    width: 70px;
+    height: 70px;
+    margin:0 auto; 
+}
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+.featurette {
+  padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+  overflow: hidden; /* Vertically center images part 2: clear their floats. */
+}
+.featurette-image {
+  margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+}
+
+/* Give some space on the sides of the floated elements so text doesn't run right into it. */
+.featurette-image.pull-left {
+  margin-right: 40px;
+}
+.featurette-image.pull-right {
+  margin-left: 40px;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+  /* Remve the edge padding needed for mobile */
+  .marketing {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+    margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+  }
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+
+}
