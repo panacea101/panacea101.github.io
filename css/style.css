@@ -10,29 +10,16 @@ body {
 }
 
 
-
-/* CUSTOMIZE THE NAVBAR
--------------------------------------------------- */
-
-/* Special class on .container surrounding .navbar, used for positioning it into place. */
-.navbar-wrapper {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 10;
-}
-
-/* CUSTOMIZE THE jumbotron
+/* CUSTOMIZE THE Jumbotron
 -------------------------------------------------- */
 
 .jumbotron {
     background: url('http://lorempixel.com/800/500/nature/5/') center center;
     background-size: cover;
-    color: #eee;
+    color: #ffffd6;
 }
 .profilePic{
-  border: #DDA0DD 3px solid;
+  border: #ffffd6 3px solid;
   border-radius: 2px;
 }
 
